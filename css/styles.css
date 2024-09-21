@@ -128,8 +128,7 @@ nav ul li a:hover {
 aside p{
     
     color: #8B0020;
-    margin: -150px 200px 150px 0px;
-    /* margin-bottom: 180px; */
+    margin: -80px 200px 120px 0px;
     height: 80px;
     font-size: 26px;
     width: 50%;
@@ -142,7 +141,7 @@ aside p{
 }
 
 .local {
-    position: fixed;
+    position: relative;
     bottom: 0px;
     height: 120px;
     background-color: rgba(28, 28, 28, 0.8);
@@ -194,12 +193,45 @@ aside p{
     color: #CD853F;
 }
 
+.titulos{
+    padding: 30px;
+    text-align: center;
+    color: #8B0020;
+    font-size: 30px;
+    font-family: 'crimson';
+}
+
+.apresentacao{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 120px;
+}
+
+.apresentacao p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.apresentacao .o{
+    color: #8B0020;
+}
+
+.apresentacao .n{
+    font-size: 30px;
+}
+
+.premiacao p{
+    color: #8B0020;
+    text-align: justify;
+}
 .copyrigth {
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    bottom: 5px;
     width: 100%;
     color: white;
     font-family: 'crimson';
-    font-size: 16px;
-    
+    font-size: 16px; 
 }
