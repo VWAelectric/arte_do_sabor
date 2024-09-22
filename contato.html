@@ -36,7 +36,60 @@
     </header>
     <main>
         <section>
-            
+            <div>
+                <h2 class="titulos">Contato</h2>
+                <div class="reserva">
+                    <div class="container">
+                        <h4>Faça sua reserva</h4>
+
+                        <form>
+                            <form action="/enviar-reserva" method="POST">
+                                <label for="nome">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXX-XXXX" required>
+
+                                <label for="data">Data da Reserva</label>
+                                <input type="date" id="data" name="data" required>
+
+                                <label for="hora">Hora da Reserva</label>
+                                <input type="time" id="hora" name="hora" required>
+
+                                <label for="pessoas">Número de Pessoas</label>
+                                <select id="pessoas" name="pessoas" required>
+                                    <option value="2">2 Pessoas</option>
+                                    <option value="3">3 Pessoas</option>
+                                    <option value="4">4 Pessoas</option>
+                                    <option value="5">5 Pessoas</option>
+                                    <option value="6">6 Pessoas</option>
+                                    <option value="7+">Mais de 6 Pessoas</option>
+                                </select>
+
+                                <label for="mensagem">Mensagem Adicional (opcional)</label>
+                                <textarea id="mensagem" name="mensagem" rows="4"
+                                    placeholder="Deixe uma mensagem, se necessário"></textarea>
+
+                                <input type="submit" value="Reservar Mesa">
+                            </form>
+
+                        </form>
+                    </div>
+                    <div>
+                        <h5><b>Localização</b></h5>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.684534544489!2d-46.919923625618864!3d-23.687236966226894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfaeb38a3bbc01%3A0x484259552f753da2!2sR.%20dos%20Curumins%20-%20Jardim%20das%20Cerejeiras%2C%20Cotia%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1727034789078!5m2!1spt-BR!2sbr"
+                            width="600" height="450" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
         </section>
         <aside>
 
